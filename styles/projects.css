@@ -2,14 +2,30 @@
   width: 100%;
 }
 
-.projects-div {
-  width: 75%;
+.first-project-div {
   background-color: rgb(199, 229, 222);
+  width: 75%;
   padding: 60px 40px;
   margin: 70px 120px;
 }
 
-.project-div {
+.second-project-div {
+  background-color: rgb(235, 211, 215);
+  width: 75%;
+  padding: 60px 40px;
+  margin: 70px 120px;
+}
+
+.third-project-div {
+  background-color: rgb(255, 246, 212);
+  width: 75%;
+  padding: 60px 40px;
+  margin: 70px 120px;
+}
+
+.second-project-div,
+.third-project-div,
+.first-project-div {
   display: flex;
   justify-content: center;
   align-items: center;
