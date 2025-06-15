@@ -1,12 +1,12 @@
 .skills {
   width: 100%;
-  padding: 60px 50px;
 }
 
 .skill-tech-div {
-  border: 1px solid black;
-  border-radius: 50px;
-  padding: 30px 50px;
+  width: 75%;
+  background-color: rgb(255, 225, 207);
+  padding: 30px 40px;
+  margin: 70px 120px;
 }
 
 .skills-main {
@@ -15,14 +15,14 @@
 
 .aside-paragraph,
 .skills-paragraph {
-  font-family: monospace;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .skill-paragraph {
   font-family: monospace;
-  font-size: 15px;
-  margin-top: 25px;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 .skill-container {
@@ -58,7 +58,8 @@
   margin-top: 30px;
 }
 .tool {
-  margin-top: 10px;
+  margin-top: 5px;
+  font-size: 12px;
   position: relative;
   left: 15px;
 }
