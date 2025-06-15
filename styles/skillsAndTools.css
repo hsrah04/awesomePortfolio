@@ -6,7 +6,8 @@
   width: 75%;
   background-color: rgb(255, 225, 207);
   padding: 30px 40px;
-  margin: 70px 120px;
+  margin: 70px auto;
+  border-radius: 25px;
 }
 
 .skills-main {

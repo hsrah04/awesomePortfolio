@@ -4,31 +4,28 @@
 
 .first-project-div {
   background-color: rgb(199, 229, 222);
-  width: 75%;
-  padding: 60px 40px;
-  margin: 70px 120px;
 }
 
 .second-project-div {
   background-color: rgb(235, 211, 215);
-  width: 75%;
-  padding: 60px 40px;
-  margin: 70px 120px;
 }
 
 .third-project-div {
   background-color: rgb(255, 246, 212);
-  width: 75%;
-  padding: 60px 40px;
-  margin: 70px 120px;
 }
 
 .second-project-div,
 .third-project-div,
 .first-project-div {
+  width: 75%;
+  padding: 60px 40px;
+  margin: 70px auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .project-main-content {
@@ -48,13 +45,16 @@
 }
 .project-demo-btn {
   font-size: 10px;
-  color: white;
   background-color: black;
   border: none;
   padding: 10px 18px;
   border-radius: 50px;
   margin-bottom: 36px;
   cursor: pointer;
+}
+.project-demo-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .project-aside {
@@ -125,3 +125,7 @@
     height: 100px;
   }
 }
+
+/* will-change: transform;
+    opacity: 1;
+    transform: perspective(1200px) scale(0.962876); */
