@@ -32,7 +32,7 @@
 }
 
 .project-main-content {
-  width: 70%;
+  width: 90%;
 }
 .project-heading {
   font-size: 20px;
@@ -63,7 +63,7 @@
 .aside-heading {
   font-size: 14px;
   letter-spacing: 1px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 .aside-description {
   font-size: 10px;
@@ -76,4 +76,52 @@
 .project-image {
   width: 350px;
   height: 220px;
+}
+
+/* media query */
+
+@media screen and (max-width: 1500px) {
+  .second-project-div,
+  .third-project-div,
+  .first-project-div {
+    flex-direction: column;
+  }
+
+  .project-main-content {
+    width: 100%;
+  }
+
+  .project-aside {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .project-aside {
+    flex-direction: column;
+  }
+
+  .project-type {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .project-image {
+    width: 300px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-image {
+    width: 250px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project-image {
+    width: 150px;
+    height: 100px;
+  }
 }

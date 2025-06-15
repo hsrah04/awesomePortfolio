@@ -21,6 +21,7 @@
   margin-bottom: 10px;
   font-size: 16px;
 }
+
 hr {
   margin-bottom: 10px;
 }
@@ -40,9 +41,74 @@ hr {
 .lower-footer-line {
   font-size: 14px;
 }
+
 .x-svg,
 .instagram-svg {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+/* media query */
+@media screen and (max-width: 680px) {
+  .footer {
+    height: auto;
+  }
+
+  .upper-footer-line {
+    font-size: 25px;
+  }
+
+  .footer-email {
+    font-size: 12px;
+  }
+
+  .copyright-symbol {
+    font-size: 8px;
+    padding-top: 1px;
+  }
+  .lower-footer-line {
+    font-size: 10px;
+  }
+
+  .x-svg,
+  .instagram-svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .upper-footer-line {
+    font-size: 18px;
+  }
+
+  .footer-email {
+    font-size: 10px;
+  }
+
+  .copyright-symbol {
+    font-size: 7px;
+    padding-top: 1px;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+  }
+
+  .lower-footer-line {
+    font-size: 8px;
+  }
+  .lower-footer-content {
+    justify-content: center;
+  }
+  .svg-images {
+    text-align: center;
+  }
+
+  .x-svg,
+  .instagram-svg {
+    width: 12px;
+    height: 12px;
+  }
 }
