@@ -8,6 +8,7 @@
   padding: 30px 40px;
   margin: 70px auto;
   border-radius: 25px;
+  overflow: hidden;
 }
 
 .skills-main {
@@ -66,3 +67,25 @@
 }
 
 /* media query */
+
+@media screen and (max-width: 960px) {
+  .skill {
+    padding: 4px 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .skill {
+    padding: 3px 0;
+  }
+
+  .aside-paragraph,
+  .skills-paragraph {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .skill-paragraph {
+    font-size: 11px;
+  }
+}

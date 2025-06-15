@@ -5,6 +5,7 @@
 }
 .footer-main {
   padding: 20px 150px;
+  overflow: hidden;
 }
 
 .upper-footer {
