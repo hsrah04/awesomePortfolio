@@ -13,12 +13,15 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav id="myNavbar" class="navbar">
       <div class="left-navbar"><h1>H</h1></div>
       <div class="right-navbar">
-        <a class="navigation" href="">Skills</a>
-        <a class="navigation" href="">Project</a>
-        <button class="resume-btn navigation">View resume</button>
+        <a class="navigation" href="#mySkills"> Skills </a>
+        <a class="navigation" href="#myProjects"> Project </a>
+
+        <a href="#"
+          ><button class="resume-btn navigation">View resume</button></a
+        >
       </div>
     </nav>
 
@@ -27,7 +30,8 @@
     <section class="my-details">
       <div class="details-div">
         <p class="details-paragraph">
-          👋 Hello, I'm [Your Name]<br />
+          👋 Hello, I'm [Your Name]
+          <br />
           <br />
           I'm a passionate [Your Profession — e.g., Web Developer, Graphic
           Designer, Writer] with a focus on creating clean, user-friendly, and
@@ -40,7 +44,7 @@
 
     <!-- Skills and Technology Section -->
 
-    <section class="skills">
+    <section id="mySkills" class="skills">
       <div class="skill-tech-div">
         <p class="skills-paragraph">My Skills</p>
         <main class="skills-main">
@@ -79,7 +83,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects">
+    <section id="myProjects" class="projects">
       <div class="projects-div">
         <div class="first-project-div">
           <main class="first-project">
@@ -91,7 +95,10 @@
                 and brings positive change to many people.
               </p>
 
-              <button class="project-demo-btn"><a href="">View Demo</a></button>
+              <a class="project-demo-link" href="#">
+                <button class="project-demo-btn">View Demo</button>
+              </a>
+
               <!-- Use "Live" if the project is fully functional and available for public use or viewing.
               Example: "Check out the live site here."
 
@@ -133,7 +140,9 @@
                 and brings positive change to many people.
               </p>
 
-              <button class="project-demo-btn"><a href="">View Demo</a></button>
+              <a class="project-demo-link" href="#">
+                <button class="project-demo-btn">View Demo</button>
+              </a>
             </div>
 
             <aside class="project-aside">
@@ -169,7 +178,9 @@
                 life. Our work supports communities, promotes sustainability,
                 and brings positive change to many people.
               </p>
-              <button class="project-demo-btn"><a href="">View Demo</a></button>
+              <a class="project-demo-link" href="#">
+                <button class="project-demo-btn">View Demo</button>
+              </a>
             </div>
 
             <aside class="project-aside">
@@ -202,24 +213,31 @@
     <footer class="footer">
       <main class="footer-main">
         <div class="upper-footer">
+          <a href="#myNavbar" class="footer-to-top">
+            <button class="footer-to-top-btn">&uparrow;</button>
+          </a>
+
           <p class="upper-footer-line">Say hello!</p>
           <p class="footer-email">yourEmail@gmail.com</p>
         </div>
+
         <hr />
+
         <aside class="lower-footer">
           <div class="lower-footer-content">
-            <span class="copyright-symbol">&copy;</span>
+            <span class="copyright-symbol"> &copy; </span>
             <p class="lower-footer-line">2025 your name</p>
           </div>
           <div class="svg-images">
-            <a href=""
-              ><img
+            <a href="#" target="_blank">
+              <img
                 class="instagram-svg"
                 src="assests/svg/instagram-brands.svg"
-            /></a>
-            <a href=""
-              ><img class="x-svg" src="assests/svg/x-twitter-brands.svg"
-            /></a>
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img class="x-svg" src="assests/svg/x-twitter-brands.svg" />
+            </a>
           </div>
         </aside>
       </main>

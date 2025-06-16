@@ -5,12 +5,22 @@
 }
 .footer-main {
   padding: 20px 150px;
+  position: relative;
   overflow: hidden;
 }
 
 .upper-footer {
   color: white;
   text-align: center;
+}
+.footer-to-top-btn {
+  padding: 2px 5px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+}
+.footer-to-top {
+  text-decoration: none;
 }
 
 .upper-footer-line {
@@ -32,6 +42,7 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
 .lower-footer-content {
   display: flex;
 }
