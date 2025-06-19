@@ -124,3 +124,35 @@ hr {
     height: 12px;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .upper-footer-line {
+    display: none;
+  }
+
+  .footer-email {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .copyright-symbol {
+    font-size: 5px;
+    padding-top: 1px;
+  }
+
+  .lower-footer-line {
+    font-size: 6px;
+  }
+
+  .x-svg,
+  .instagram-svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .footer-to-top-btn {
+    padding: 0px 1px;
+    height: 17px;
+  }
+}
