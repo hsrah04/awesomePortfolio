@@ -26,6 +26,15 @@
   align-items: center;
   border-radius: 25px;
   overflow: hidden;
+  filter: grayscale(0.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.second-project-div:hover,
+.third-project-div:hover,
+.first-project-div:hover {
+  filter: grayscale(0);
+  transform: scale(0.9);
 }
 
 .project-main-content {
@@ -43,9 +52,12 @@
   line-height: 18px;
   margin-bottom: 10px;
 }
+
+.project-git-link,
 .project-demo-link {
   text-decoration: none;
 }
+.project-git-btn,
 .project-demo-btn {
   font-size: 10px;
   color: white;
@@ -56,6 +68,7 @@
   margin-bottom: 36px;
   cursor: pointer;
 }
+.project-git-btn a,
 .project-demo-btn a {
   text-decoration: none;
   color: white;
